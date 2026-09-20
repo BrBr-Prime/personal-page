@@ -1,4 +1,4 @@
-Chatbridge privacy <a href="privacy.md">link</a>
+Chatbridge privacy <a rel="me" href="https://bryanbrake.com/privacy.md">privacy statement for chatbridge</a>
 
 Module 6 References
 
