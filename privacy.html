@@ -1,0 +1,32 @@
+ChatBridge — Privacy Policy
+
+Last updated: 2026-09-20
+
+ChatBridge is a personal, self-hosted tool that merges live chat from Twitch and YouTube into one overlay for a streamer's own broadcast. It runs entirely on the streamer's own computer. There is no hosted service, no server operated by anyone else, and no accounts other than the streamer's own.
+What it accesses
+
+With the streamer's explicit OAuth consent, ChatBridge uses:
+
+    YouTube Data API (youtube.force-ssl scope) to read the live chat of the streamer's own broadcasts and to post messages to that chat on the streamer's behalf.
+    Twitch API / EventSub to read the streamer's own channel chat and to post messages to it on the streamer's behalf.
+
+What it stores
+
+    OAuth tokens for the connected accounts, saved in a local folder (.tokens/) on the streamer's computer so the login does not have to be repeated. They are never sent anywhere except to Twitch and Google to make the API calls above.
+    A short in-memory history of recent chat messages, used to render the overlay. It is discarded when the program stops. Nothing is written to a database or sent to any third party.
+
+What it does not do
+
+    It does not collect, sell, share, or analyse any personal data.
+    It does not track viewers, build profiles, or use analytics of any kind.
+    It does not transmit chat content anywhere other than the platform it came from, or — when the streamer turns the relay feature on — to the streamer's own chat on the other platform, visibly prefixed with its origin.
+
+Google API Services User Data Policy
+
+ChatBridge's use of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements.
+Revoking access
+
+Access can be revoked at any time from Google account permissions and Twitch connections, and by deleting the local .tokens/ folder.
+Contact
+
+Questions: info@bryanbrake.com
