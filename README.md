@@ -1,53 +1,37 @@
-Chatbridge privacy <a rel="me" href="https://bryanbrake.com/privacy.md">privacy statement for chatbridge</a>
+ChatBridge — Privacy Policy
 
-Module 6 References
+Last updated: 2026-09-20
 
-Chu, Kathy and Bob Davis. “As China’s Workforce Dwindles, the World Scrambles for Alternatives.” The Wall Street Journal (November 23, 2015).  
+ChatBridge is a personal, self-hosted tool that merges live chat from Twitch and YouTube into one overlay for a streamer's own broadcast. It runs entirely on the streamer's own computer. There is no hosted service, no server operated by anyone else, and no accounts other than the streamer's own.
+What it accesses
 
-Chu, Kathy and Bob Davis. “China, Levi Strauss and the Long-Simmering Battle Over Labor Rights.” The Wall Street Journal (November 23, 2015).
+With the streamer's explicit OAuth consent, ChatBridge uses:
 
-Collins, Jim. Good to Great. New York: Harper Business, 2001.
+    YouTube Data API (youtube.force-ssl scope) to read the live chat of the streamer's own broadcasts and to post messages to that chat on the streamer's behalf.
+    Twitch API / EventSub to read the streamer's own channel chat and to post messages to it on the streamer's behalf.
 
-Collins, Jim. Great by Choice. New York: Harper Business, 2011.
+What it stores
 
-Fairchild, Caroline. “Does Levi Strauss still fit America?” Fortune (September 18, 2014).
+    OAuth tokens for the connected accounts, saved in a local folder (.tokens/) on the streamer's computer so the login does not have to be repeated. They are never sent anywhere except to Twitch and Google to make the API calls above.
+    A short in-memory history of recent chat messages, used to render the overlay. It is discarded when the program stops. Nothing is written to a database or sent to any third party.
 
-Higgins, Tim. “Distressed Denim: Levi’s Tries to Adapt to the Yoga Pants Era.” Bloomberg (2015).
+What it does not do
 
-Huy, Quy Nguyen. “Emotional Balancing of Organizational Continuity and Radical Change: The Contribution of Middle Managers.” Administrative Science Quarterly 47, no. 1 (2002): 31-69.
+    It does not collect, sell, share, or analyse any personal data.
+    It does not track viewers, build profiles, or use analytics of any kind.
+    It does not transmit chat content anywhere other than the platform it came from, or — when the streamer turns the relay feature on — to the streamer's own chat on the other platform, visibly prefixed with its origin.
 
-Margolis, Joshua D., Allison M. Ciechanover, Nicole Keller, and Danielle Golan. “Leading Bank Leumi into the Future.” Harvard Business School Case 9-420-063, October 2019.
+Google API Services User Data Policy
 
-Margolis, Joshua D., Ashish Nanda, Margaret Cross, Imran Manji, and Bismah Rahmat. “Levi Strauss (A): A Pioneer Lost in the Wilderness.” Harvard Business School Case 720-405, March 2020 (revised February 2021). 
+ChatBridge's use of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements.
+Revoking access
 
-Tushman, Michael L., and Charles A. O’Reilly. “Ambidextrous Organizations: Managing Evolutionary and Revolutionary Change.” California Management Review 38, no. 4 (July 1996): 8–29.
+Access can be revoked at any time from Google account permissions and Twitch connections, and by deleting the local .tokens/ folder.
+Contact
 
-Tushman, Michael L., and Charles A. O’Reilly. “Organizational Ambidexterity: Past, Present, and Future.” Academy of Management Perspectives 27, no. 4 (October 2013).
+Questions: do.not.email.me@bryanbrake.com
 
-Tushman, Michael L., Wendy K. Smith, and Andy Binns. “The Ambidextrous CEO.” Harvard Business Review (June 2011).Module 6 References
-Chu, Kathy and Bob Davis. “As China’s Workforce Dwindles, the World Scrambles for Alternatives.” The Wall Street Journal (November 23, 2015).
 
-Chu, Kathy and Bob Davis. “China, Levi Strauss and the Long-Simmering Battle Over Labor Rights.” The Wall Street Journal (November 23, 2015).
-
-Collins, Jim. Good to Great. New York: Harper Business, 2001.
-
-Collins, Jim. Great by Choice. New York: Harper Business, 2011.
-
-Fairchild, Caroline. “Does Levi Strauss still fit America?” Fortune (September 18, 2014).
-
-Higgins, Tim. “Distressed Denim: Levi’s Tries to Adapt to the Yoga Pants Era.” Bloomberg (2015).
-
-Huy, Quy Nguyen. “Emotional Balancing of Organizational Continuity and Radical Change: The Contribution of Middle Managers.” Administrative Science Quarterly 47, no. 1 (2002): 31-69.
-
-Margolis, Joshua D., Allison M. Ciechanover, Nicole Keller, and Danielle Golan. “Leading Bank Leumi into the Future.” Harvard Business School Case 9-420-063, October 2019.
-
-Margolis, Joshua D., Ashish Nanda, Margaret Cross, Imran Manji, and Bismah Rahmat. “Levi Strauss (A): A Pioneer Lost in the Wilderness.” Harvard Business School Case 720-405, March 2020 (revised February 2021). 
-
-Tushman, Michael L., and Charles A. O’Reilly. “Ambidextrous Organizations: Managing Evolutionary and Revolutionary Change.” California Management Review 38, no. 4 (July 1996): 8–29.
-
-Tushman, Michael L., and Charles A. O’Reilly. “Organizational Ambidexterity: Past, Present, and Future.” Academy of Management Perspectives 27, no. 4 (October 2013).
-
-Tushman, Michael L., Wendy K. Smith, and Andy Binns. “The Ambidextrous CEO.” Harvard Business Review (June 2011).
 
 --
 
